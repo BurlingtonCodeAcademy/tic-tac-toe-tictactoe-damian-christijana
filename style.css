@@ -1,0 +1,95 @@
+h2 {
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+}
+/* Container allows .board to be centered */
+.board-container{
+    height:40vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+}
+/* Given the rows, the board itself needs to be set into columns to prevent 9 boxes on one line */
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid black; */
+  width: 35vw;
+  height: 35vh;
+}
+#row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #row-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+/* Cell array, borders set up to look like a proper tic-tac-toe board */
+#cell-0 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-top: none;
+  border-left:none;
+}
+#cell-1 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-top: none;
+}
+#cell-2 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-top: none;
+  border-right:none;
+}
+#cell-3 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-left:none;
+}
+#cell-4 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+#cell-5 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-right:none;
+}
+#cell-6 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-left:none;
+  border-bottom: none;
+}
+#cell-7 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-bottom: none;
+}
+#cell-8 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-right:none;
+  border-bottom: none;
+}
